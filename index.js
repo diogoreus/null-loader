@@ -1,8 +1,8 @@
 module.exports = function() {
 	this.cacheable();
-	return "// empty (null-loader)";
+	return "module.exports = null";
 };
 module.exports.pitch = function() {
 	this.cacheable();
-	return "// empty (null-loader)";
+	return "module.exports = null";
 };
